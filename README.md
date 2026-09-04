@@ -12,10 +12,10 @@ without taking my word for anything.
 
 | Platform | Profile | What it shows |
 | --- | --- | --- |
-| Cantina | [cantina.xyz/u/Tradi3](https://cantina.xyz/u/Tradi3) | 4 public findings |
+| Cantina | [cantina.xyz/u/Tradi3](https://cantina.xyz/u/Tradi3) | 5 public findings |
 | Immunefi | [immunefi.com/profile/Tradi3](https://immunefi.com/profile/Tradi3/) | 1 Medium, $367, member since 5 March 2026 |
-| Sherlock | [audits.sherlock.xyz/watson/Tradi3](https://audits.sherlock.xyz/watson/Tradi3) | 1 Medium, 370 USDC |
-| HackenProof | [hackenproof.com/hackers/tradi3](https://hackenproof.com/hackers/tradi3) | reputation 137, 2 influenced programs |
+| Sherlock | [audits.sherlock.xyz/watson/Tradi3](https://audits.sherlock.xyz/watson/Tradi3) | 4 Mediums, 3 payouts, $374 total earnings |
+| HackenProof | [hackenproof.com/hackers/tradi3](https://hackenproof.com/hackers/tradi3) | reputation 142, 4 influenced programs |
 
 One caveat so nobody counts a result twice: the Immunefi row and the Sherlock row are the same
 Base Azul finding displayed on two platforms. It is one Medium, not two.
@@ -24,8 +24,10 @@ Base Azul finding displayed on two platforms. It is one Medium, not two.
 
 | Review | Platform | Result | Placement | Evidence |
 | --- | --- | --- | --- | --- |
-| Revert Finance, StableSwap Hooks | Cantina | Confirmed High | 58th of 269 | [Competition](https://cantina.xyz/code/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/overview) · [Profile](https://cantina.xyz/u/Tradi3) |
+| Revert Finance, StableSwap Hooks | Cantina | Confirmed High | 58th of 269 | [Competition](https://cantina.xyz/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3) · [Profile](https://cantina.xyz/u/Tradi3) |
 | Base Azul | Immunefi | 1 Medium, $367 | 53rd | [Leaderboard](https://immunefi.com/audit-competition/audit-comp-base-azul/leaderboard/) |
+| Metric | Sherlock | 3 Mediums, 1.66 USDC | 24th | [Profile and public findings](https://audits.sherlock.xyz/watson/Tradi3) |
+| Tare | Sherlock | 2.61 USDC payout | 172nd | [Profile](https://audits.sherlock.xyz/watson/Tradi3) |
 
 The Revert Finance competition ran 30 April to 8 May 2026 against commit
 `cf0c30e576f144809df9819f4d3ad49e0b7fe2d7`, drew 1,412 submissions, and paid only Highs and
@@ -48,21 +50,6 @@ In the PoC the same 9,999 ETH exact-output swap costs about 10x less input throu
 path than it costs once the withdrawal is accounted for, and the honest side is left holding 1 ETH.
 The existing test suite covered reentrancy through hook functions that call `unlock()` again, which
 correctly reverts. It did not cover a direct swap while the manager was already unlocked.
-
-## Work in review
-
-Named without technical detail, because these are live and the disclosure terms are not mine to
-waive. Listed so the record is complete rather than flattering.
-
-- **Sherlock, Metric contest 1279.** Oracle-anchored DEX, 150,000 USDC pool. 10 submissions live in
-  judging. Judging opened 27 July 2026.
-- **Immunefi, 1inch Aqua.** Submissions in review.
-- **Cantina, Morpho Midnight.** Multiple submissions, each with a Foundry PoC.
-- **Cantina, Ondo Perps.** Black box web and API review of an SGX enclave backed perpetuals
-  platform.
-
-I will move anything here into the results table when it resolves, including the ones that resolve
-as duplicates or invalid.
 
 ## How I decide something is worth filing
 
@@ -107,10 +94,6 @@ because a lot of real programs need both.
 
 Solidity and EVM, Rust and Anchor on Solana, Cairo on Starknet, Clarity on Stacks, Move on Aptos,
 CosmWasm.
-
-Recent review coverage: Granite, Starknet Staking and StarkGate, Layer3, Arcadia, TruYields,
-Treehouse, Twyne, Zest, TermMax, Vesu, USDN and SmarDex, Enzyme, Folks Finance, Hermetica,
-Arbitrum, Balancer, Chainlink CCIP, Ethena, Spark, Optimism.
 
 ## Credentials
 
