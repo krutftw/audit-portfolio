@@ -24,7 +24,7 @@ Base Azul finding displayed on two platforms. It is one Medium, not two.
 
 | Review | Platform | Result | Placement | Evidence |
 | --- | --- | --- | --- | --- |
-| Revert Finance, StableSwap Hooks | Cantina | Confirmed High | 58th of 269 | [Competition](https://cantina.xyz/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3) · [Profile](https://cantina.xyz/u/Tradi3) |
+| Revert Finance, StableSwap Hooks | Cantina | 1 High · 1 Medium | 56th of 269 | [Competition](https://cantina.xyz/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3) · [Profile](https://cantina.xyz/u/Tradi3) |
 | Base Azul | Immunefi | 1 Medium, $367 | 53rd | [Leaderboard](https://immunefi.com/audit-competition/audit-comp-base-azul/leaderboard/) |
 | Metric | Sherlock | 3 Mediums, 1.66 USDC | 24th | [Profile and public findings](https://audits.sherlock.xyz/watson/Tradi3) |
 | Tare | Sherlock | 2.61 USDC payout | 172nd | [Profile](https://audits.sherlock.xyz/watson/Tradi3) |
