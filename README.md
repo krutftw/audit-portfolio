@@ -13,6 +13,7 @@ focusing on accounting, AMMs, oracle integrations, transaction security, and acc
 
 | Competition | Result | Placement | Public record |
 | --- | --- | --- | --- |
+| ENS | 17 Critical · 1 High · 4 Medium · 1 Low | **15th of 186 listed researchers** | [Immunefi leaderboard](https://immunefi.com/audit-competition/audit-competition-ens/leaderboard/) |
 | Firelight | 2 High | **2nd** | [Immunefi leaderboard](https://immunefi.com/audit-competition/audit-comp-firelight-1/leaderboard/) |
 | Quantus | 1 Critical · 1 High | **8th** | [Immunefi leaderboard](https://immunefi.com/audit-competition/audit-comp-quantus/leaderboard/) |
 | Revert Finance · StableSwap Hooks | 1 High · 1 Medium | — | [Cantina leaderboard](https://cantina.xyz/competitions/e55ee7b9-6c99-42f8-8338-39f3dd134ef3/leaderboard) |
@@ -20,9 +21,16 @@ focusing on accounting, AMMs, oracle integrations, transaction security, and acc
 | Base Azul | 1 Medium | 53rd | [Immunefi leaderboard](https://immunefi.com/audit-competition/audit-comp-base-azul/leaderboard/) |
 | Morpho Midnight | 1 Low | — | [Cantina finding](https://cantina.xyz/code/4679e0fa-85f7-4ea5-8827-ee6c70bdee6b/findings/652) |
 
-[Immunefi](https://immunefi.com/profile/Tradi3/) records **5 accepted competition
-reports: 1 Critical, 3 High, and 1 Medium**, with **$4,537** in total earnings as
-displayed on 8 October 2026. Counts include accepted duplicate reports.
+ENS credits **23 valid submissions: 1 Chief and 22 duplicates**, plus 1 separate
+Insight. The **17 Critical-rated submissions** are the highest Critical count among
+the leaderboard's 186 listed researchers. These counts include duplicates and do
+not represent unique vulnerabilities.
+
+The separate [Immunefi profile](https://immunefi.com/profile/Tradi3/) snapshot on
+8 October 2026 records **5 accepted competition reports: 1 Critical, 3 High, and
+1 Medium**, with **$4,537** in displayed total earnings. This profile snapshot
+excludes ENS and is not an all-platform total. Counts include accepted duplicate
+reports.
 
 ## Published Immunefi reports
 
@@ -48,8 +56,9 @@ the affected code, impact, test output, and remediation.
 
 ## Research tooling
 
-[Bounty Operator Kit](https://github.com/krutftw/bounty-operator-kit) — my public
-workflow for scope tracking, review notes, prior-art checks, and report preparation.
+[Bounty Operator](https://bountyoperator.com/) — review bug bounty reports and
+supporting files with source citations, evidence checks, and model comparisons.
+[Source](https://github.com/bountyoperator/bounty-operator).
 
 ## Background
 
