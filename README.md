@@ -26,11 +26,11 @@ Insight. The **17 Critical-rated submissions** are the highest Critical count am
 the leaderboard's 186 listed researchers. These counts include duplicates and do
 not represent unique vulnerabilities.
 
-The separate [Immunefi profile](https://immunefi.com/profile/Tradi3/) snapshot on
-8 October 2026 records **5 accepted competition reports: 1 Critical, 3 High, and
-1 Medium**, with **$4,537** in displayed total earnings. This profile snapshot
-excludes ENS and is not an all-platform total. Counts include accepted duplicate
-reports.
+The [Immunefi profile](https://immunefi.com/profile/Tradi3/) on 10 October 2026
+shows **Top Ranked, 77th all time**, with **28 accepted audit competition reports
+(17 Critical, 4 High, 5 Medium, 1 Low, 1 Insight)** and **$5,946** in displayed
+total earnings. These are Immunefi totals, not an all-platform total, and they
+include accepted duplicate reports.
 
 ## Published Immunefi reports
 
@@ -38,6 +38,7 @@ These are the platform's published reports, attributed to Tradi3.
 
 | Competition | Severity | Report |
 | --- | --- | --- |
+| ENS | Critical | [#89456 — Renewal route prices and displays the normalized name but signs the raw label (Chief)](https://reports.immunefi.com/ens-or-audit-competition/89456-w-a-critical-renewal-route-prices-and-displays-the-normalized-name-but-signs-the-raw-label-so) |
 | Quantus | Critical | [#89347 — High-security account policy bypass through transaction tips](https://reports.immunefi.com/quantus-or-audit-competition/89347-bc-critical-high-security-accounts-can-be-drained-immediately-via-an-unbounded-tip-on-a-whitel) |
 | Quantus | High | [#90460 — POS accepts a replaceable pool transaction as payment before execution](https://reports.immunefi.com/quantus-or-audit-competition/90460-w-a-high-quantus-pos-accepts-a-replaceable-pool-transaction-as-payment-before-execution) |
 | Firelight | High | [#88281 — Collateral backing previous-period claims is reused for new cover](https://reports.immunefi.com/firelight-sep.2026-or-audit-competition/88281-sc-high-coverorderallocator-reuses-collateral-still-backing-previous-period-claims-leaving-new) |
