@@ -1,4 +1,4 @@
-# Tradi3 — smart contract & blockchain security
+# Tradi3 · smart contract & blockchain security
 
 Kurt Landman, Perth, Australia. I review DeFi contracts and blockchain systems,
 focusing on accounting, AMMs, oracle integrations, transaction security, and access control.
@@ -26,7 +26,7 @@ Insight. The **17 Critical-rated submissions** are the highest Critical count am
 the leaderboard's 186 listed researchers. These counts include duplicates and do
 not represent unique vulnerabilities.
 
-The [Immunefi profile](https://immunefi.com/profile/Tradi3/) on 10 October 2026
+The [Immunefi profile](https://immunefi.com/profile/Tradi3/) on 19 October 2026
 shows **Top Ranked, 77th all time**, with **28 accepted audit competition reports
 (17 Critical, 4 High, 5 Medium, 1 Low, 1 Insight)** and **$5,946** in displayed
 total earnings. These are Immunefi totals, not an all-platform total, and they
@@ -38,14 +38,14 @@ These are the platform's published reports, attributed to Tradi3.
 
 | Competition | Severity | Report |
 | --- | --- | --- |
-| ENS | Critical | [#89456 — Renewal route prices and displays the normalized name but signs the raw label (Chief)](https://reports.immunefi.com/ens-or-audit-competition/89456-w-a-critical-renewal-route-prices-and-displays-the-normalized-name-but-signs-the-raw-label-so) |
-| Quantus | Critical | [#89347 — High-security account policy bypass through transaction tips](https://reports.immunefi.com/quantus-or-audit-competition/89347-bc-critical-high-security-accounts-can-be-drained-immediately-via-an-unbounded-tip-on-a-whitel) |
-| Quantus | High | [#90460 — POS accepts a replaceable pool transaction as payment before execution](https://reports.immunefi.com/quantus-or-audit-competition/90460-w-a-high-quantus-pos-accepts-a-replaceable-pool-transaction-as-payment-before-execution) |
-| Firelight | High | [#88281 — Collateral backing previous-period claims is reused for new cover](https://reports.immunefi.com/firelight-sep.2026-or-audit-competition/88281-sc-high-coverorderallocator-reuses-collateral-still-backing-previous-period-claims-leaving-new) |
-| Firelight | High | [#88618 — Assessment approval can execute an unreviewed replacement loss schedule](https://reports.immunefi.com/firelight-sep.2026-or-audit-competition/88618-sc-high-assessment-approval-can-execute-a-replacement-loss-schedule-the-risk-consortium-never) |
-| Base Azul | Medium | [#75354 — ZK witness interval mismatch makes challenge proofs unverifiable](https://reports.immunefi.com/base/75354-bc-medium-hardcoded-10-block-zk-witness-interval-makes-30-block-challenge-proofs-unverifiable) |
+| ENS | Critical | [#89456: Renewal route prices and displays the normalized name but signs the raw label (Chief)](https://reports.immunefi.com/ens-or-audit-competition/89456-w-a-critical-renewal-route-prices-and-displays-the-normalized-name-but-signs-the-raw-label-so) |
+| Quantus | Critical | [#89347: High-security account policy bypass through transaction tips](https://reports.immunefi.com/quantus-or-audit-competition/89347-bc-critical-high-security-accounts-can-be-drained-immediately-via-an-unbounded-tip-on-a-whitel) |
+| Quantus | High | [#90460: POS accepts a replaceable pool transaction as payment before execution](https://reports.immunefi.com/quantus-or-audit-competition/90460-w-a-high-quantus-pos-accepts-a-replaceable-pool-transaction-as-payment-before-execution) |
+| Firelight | High | [#88281: Collateral backing previous-period claims is reused for new cover](https://reports.immunefi.com/firelight-sep.2026-or-audit-competition/88281-sc-high-coverorderallocator-reuses-collateral-still-backing-previous-period-claims-leaving-new) |
+| Firelight | High | [#88618: Assessment approval can execute an unreviewed replacement loss schedule](https://reports.immunefi.com/firelight-sep.2026-or-audit-competition/88618-sc-high-assessment-approval-can-execute-a-replacement-loss-schedule-the-risk-consortium-never) |
+| Base Azul | Medium | [#75354: ZK witness interval mismatch makes challenge proofs unverifiable](https://reports.immunefi.com/base/75354-bc-medium-hardcoded-10-block-zk-witness-interval-makes-30-block-challenge-proofs-unverifiable) |
 
-## Revert Finance — confirmed High
+## Revert Finance · confirmed High
 
 **Native ETH `removeLiquidity` reentrancy lets an LP swap against withdrawn stale reserves**
 
@@ -57,8 +57,9 @@ the affected code, impact, test output, and remediation.
 
 ## Research tooling
 
-[Bounty Operator](https://bountyoperator.com/) — review bug bounty reports and
-supporting files with source citations, evidence checks, and model comparisons.
+[Bounty Operator](https://bountyoperator.com/): pre-submission review for bug bounty
+reports and smart contract findings, with file-and-line citations, prior-art checks,
+MCP agent tools, and the Paydirt model benchmark.
 [Source](https://github.com/bountyoperator/bounty-operator).
 
 ## Background
